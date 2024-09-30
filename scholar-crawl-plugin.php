@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Scholar Crawl Plugin
-Plugin URI:  https://github.com/ikhsant/
+Plugin URI:  https://github.com/ikhsant/scholar_crawl
 Description: A simple plugin to scrape Google Scholar profile, publication data and display it.
 Version: 1.2
 Author: Ikhsan Thohir
