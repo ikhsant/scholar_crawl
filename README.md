@@ -29,4 +29,4 @@ To use the plugin, add the following shortcode to any post or page:
 ### Show Profile Information
 
 ```plaintext
-[scholar_crawl user="gus4uIQAAAAJ" show_profile="true"]
+[scholar_crawl user="QcPyFTkAAAAJ" show_profile="true"]
