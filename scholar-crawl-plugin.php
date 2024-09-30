@@ -29,13 +29,13 @@ function scholar_crawl_fetch_data($user_id, $show_profile) {
     $dom->load($html);
 
     // Extract profile picture, name, and institution
-    $profile_pic_element = $dom->find('.gsc_prf_pup-img', 0);
+    $profile_pic_element = $dom->find('#gsc_prf_pup-img', 0);
     $profile_pic = ($profile_pic_element) ? 'https://scholar.google.com' . $profile_pic_element->src : 'No profile picture found';
 
-    $name_element = $dom->find('.gsc_prf_in', 0);
+    $name_element = $dom->find('#gsc_prf_in', 0);
     $name = ($name_element) ? $name_element->plaintext : 'No name found';
 
-    $institution_element = $dom->find('.gsc_prf_ila', 0);
+    $institution_element = $dom->find('.gsc_prf_il', 0);
     $institution = ($institution_element) ? $institution_element->plaintext : 'No institution found';
 
     // Start building the output string
